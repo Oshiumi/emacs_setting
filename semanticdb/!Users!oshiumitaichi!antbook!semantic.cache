@@ -1,0 +1,19 @@
+;; Object antbook/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "antbook/"
+  :tables
+  (list
+    (semanticdb-table "triangle.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("cstdio" include (:system-flag t) nil [1 18])
+            ("cstring" include (:system-flag t) nil [19 37])
+            ("main" function (:type "int") nil [39 76]))          
+      :file "triangle.cpp"
+      :pointmax 77
+      :fsize 76
+      :lastmodtime '(22018 55950 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!oshiumitaichi!antbook!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
